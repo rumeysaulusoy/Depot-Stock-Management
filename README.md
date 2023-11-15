@@ -8,15 +8,19 @@ Docker
 PostgreSQL
 
 API Documentation
+
 Access the Swagger UI documentation at http://localhost:8080/swagger-ui.html after starting the application.
 
 Database
+
 The application uses PostgreSQL. Database schema details can be found in src/main/resources/db/schema.sql.
 
 Testing
+
 Run unit tests: mvn test
 
 Docker
+
 Build and run the Docker container:
 
 Build the Docker image: docker build -t depot-stock-management .
